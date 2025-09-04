@@ -11,12 +11,12 @@
 </head>
 <body>
     <section class="navbar-design">
-        <div class="flex justify-between px-[60px] py-[20px] items-center h-[100px] gap-10">
+        <div class="flex flex-col md:flex-row  justify-between px-[20px] md:px-[60px] py-[20px] items-center h-auto md:h-[100px] gap-4 md:gap-10">
             <div class="flex gap-1">
                 <div class="nav-right"><img src="assets/logo-dark.png" alt="" width="50px"height="50px"></div>
                 <div class="nav-right text-[#006747] text-lg  font-bold">Emergency<br>Service</div>
             </div>
-            <div class="nav-item flex gap-10 items-center">
+            <div class="nav-item flex flex-wrap justify-center gap-4 md:gap-10 items-center mt-4 md:mt-0">
                 <div class="flex gap-4 px-8 py-3 bg-[#41FF6B] rounded-[40px]"><span>0</span><img src="assets/heart.png" width="23px"height="23px"></div>
                 <div class="flex gap-4 px-8 py-3 bg-[#41FF6B] rounded-[40px]"><span class="text-[16px] text-[#000000]">100</span><img src="assets/coin.png" width="23px"height="23px"></div>
                 <div class="flex gap-4 px-8 py-3 text-[#FFFFFF] font-semibold text-[16px] bg-[#00A63E] rounded-[40px]">2 Copy</div>
@@ -25,7 +25,8 @@
     </section>
 
     <section class="banner">
-        <div class="text-center flex flex-col items-center py-[21px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
+        <div class="text-center flex flex-col items-center px-4 py-[21px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
+
             <div><img src="assets/logo.png" alt="" width="92px" height="92px"></div>
             <div class="text-[#FFFFFF]">
                 <h1 class="font-bold text-[40px]">Emergency Service Directory</h1>
@@ -37,8 +38,8 @@
     </section>
 
     <section class="carts">
-        <div class="cart-container px-[50px] py-[80px] grid grid-cols-[1fr_auto] gap-6">
-            <div class="grid grid-cols-3 gap-6">
+        <div class="cart-container px-[20px] md:px-[50px] py-[40px] md:py-[80px] grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="rounded-[10px] shadow-xl">
                     <div class="p-[25px]">
                         <div class="flex justify-between items-center">
