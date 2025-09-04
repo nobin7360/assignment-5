@@ -24,8 +24,6 @@ function addHistory(serviceName,serviceNum) {
 
 
     entry.innerHTML=`${serviceName}-${serviceNum}(Called at: ${time})`;
-
-    entry.innerHTML=`${serviceName}-${serviceNum}(Called at: ${time})`;
     
     historyData.appendChild(entry);
 }
