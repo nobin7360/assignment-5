@@ -17,8 +17,8 @@
                 <div class="nav-right text-[#006747] text-lg  font-bold">Emergency<br>Service</div>
             </div>
             <div class="nav-item flex flex-wrap justify-center gap-4 md:gap-10 items-center mt-4 md:mt-0">
-                <div class="flex gap-4 px-8 py-3 bg-[#41FF6B] rounded-[40px]"><span>0</span><img src="assets/heart.png" width="23px"height="23px"></div>
-                <div class="flex gap-4 px-8 py-3 bg-[#41FF6B] rounded-[40px]"><span class="text-[16px] text-[#000000]">100</span><img src="assets/coin.png" width="23px"height="23px"></div>
+                <div class="flex gap-4 px-8 py-3 bg-[#41FF6B] rounded-[40px]"><span id="heart-count">0</span><img src="assets/heart.png" width="23px"height="23px"></div>
+                <div class="flex gap-4 px-8 py-3 bg-[#41FF6B] rounded-[40px]"><span id="coins" class="text-[16px] text-[#000000]">100</span><img src="assets/coin.png" width="23px"height="23px"></div>
                 <div class="flex gap-4 px-8 py-3 text-[#FFFFFF] font-semibold text-[16px] bg-[#00A63E] rounded-[40px]">2 Copy</div>
             </div>
         </div>
@@ -44,7 +44,7 @@
                     <div class="p-[25px]">
                         <div class="flex justify-between items-center">
                             <img class="p-1.5 bg-[#FFE3E2] rounded-[15px] w-[45px] " src="assets/emergency.png" >
-                            <i class="fa-regular fa-heart"></i>
+                            <i id="heart-btn" class="fa-regular fa-heart"></i>
                         </div>
                         <p class="text-[20px] text-[#111111] font-bold">National Emergency Number</p>
                         <p class="text-[18px] text-[#5C5C5C]">National Emergency</p>
@@ -197,6 +197,8 @@
         </div>
     </section>
 
+
+    <script type="text/javascript" src="index.js"></script>
 
 </body>
 </html>
